@@ -7,6 +7,7 @@ import Hello from './React_Exaoles/Hello';
 import HelloDef from './React_Exaoles/HelloDef';
 import Box from './React_Exaoles/Box';
 import Message from './React_Exaoles/Message';
+import Game from './React_Exaoles/Game';
 
 class  App extends React.Component {
   render(){
@@ -21,6 +22,7 @@ class  App extends React.Component {
         <Box/>
         <br></br>
         <Message/>
+        <Game p1="xx" p2="xy" p3="xy"/>
       </div>
     )
   }
