@@ -25,7 +25,7 @@ export default class LancerDe extends React.Component{
         
         return(
             <div>
-            <p>{this.state.number}</p>
+            
                 <img  src={image1} width="100px" />
             <img src={image2} width="100px"/>
             <br></br>
