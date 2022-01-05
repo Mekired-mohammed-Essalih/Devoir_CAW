@@ -12,13 +12,15 @@ import Rando from './React_Exaoles/Rando';
 import FixedClick from './React_Exaoles/FixedClick';
 import ClickRandom from './React_Exaoles/ClickRandom';
 import Comp from './React_Exaoles/Comp';
+import LancerDe from './React_Exaoles/LancerDe';
 
 class  App extends React.Component {
   render(){
     return(
-      
+    
       <div>
         <h1>hello to my first web page en reactjs</h1>
+        /*<Hello />*/
         <HelloDef/>
         <HelloDef from="foufa" to="ali"/>
         <Box  favoriteColor="#00ffbf" otherColor= "black" message="i am in box page " />
@@ -31,6 +33,7 @@ class  App extends React.Component {
         <FixedClick/>
         <ClickRandom maxNum="10"/>
         <Comp/>
+        <LancerDe/>
       </div>
     )
   }
