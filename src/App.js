@@ -19,20 +19,8 @@ class  App extends React.Component {
     return(
     
       <div>
-        <h1>hello to my first web page en reactjs</h1>
-        /*<Hello />*/
-        <HelloDef/>
-        <HelloDef from="foufa" to="ali"/>
-        <Box  favoriteColor="#00ffbf" otherColor= "black" message="i am in box page " />
-        <br></br>
-        <Box/>
-        <br></br>
-        <Message/>
-        <Game p1="xx" p2="xy" p3="xy"/>
-        <Rando maxNum="435"/>
-        <FixedClick/>
-        <ClickRandom maxNum="10"/>
-        <Comp/>
+        <h1>jeux de dés</h1>
+        
         <LancerDe/>
       </div>
     )
