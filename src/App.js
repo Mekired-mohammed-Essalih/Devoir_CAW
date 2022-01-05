@@ -12,7 +12,8 @@ import Rando from './React_Exaoles/Rando';
 import FixedClick from './React_Exaoles/FixedClick';
 import ClickRandom from './React_Exaoles/ClickRandom';
 import Comp from './React_Exaoles/Comp';
-import LancerDe from '/LancerDe';
+import LancerDe from './LancerDe';
+
 
 class  App extends React.Component {
   render(){
@@ -25,7 +26,7 @@ class  App extends React.Component {
       </div>
     )
   }
- /* return (
+/* return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -43,7 +44,7 @@ class  App extends React.Component {
       </header>
     </div>
   );*/
- 
+
 }
 
 export default App;
